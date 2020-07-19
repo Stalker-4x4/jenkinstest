@@ -88,9 +88,9 @@ def shouldBuildPR(Map args = [:]) {
   shouldBuild
 }
 
-monitorRecentlyApprovedPRs organization: "Stalker-4x4", auth: "st4x44@gmail.com", multibranch: "Test"
+monitorRecentlyApprovedPRs organization: "Stalker-4x4", auth: "Stalker-4x4", multibranch: "Test"
 
-if (shouldBuildPR(organization: "Stalker-4x4", repo: "PR-REPO", auth: "st4x44@gmail.com", pr: env.CHANGE_ID) == false)
+if (shouldBuildPR(organization: "Stalker-4x4", repo: "PR-REPO", auth: "Stalker-4x4", pr: env.CHANGE_ID) == false)
   exit 1
   
 
