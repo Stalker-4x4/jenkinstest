@@ -90,8 +90,8 @@ def shouldBuildPR(Map args = [:]) {
 
 monitorRecentlyApprovedPRs organization: "Stalker-4x4", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", multibranch: "Test"
 
-if (shouldBuildPR(organization: "Stalker-4x4", repo: "jenkinstest", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", pr: env.CHANGE_ID) == false)
-  exit 1
+//if (shouldBuildPR(organization: "Stalker-4x4", repo: "jenkinstest", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", pr: env.CHANGE_ID) == false)
+//  exit 1
   
 
 
