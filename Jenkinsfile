@@ -88,10 +88,10 @@ def shouldBuildPR(Map args = [:]) {
   shouldBuild
 }
 
-monitorRecentlyApprovedPRs organization: "Stalker-4x4", auth: "st4x44@gmail.com", multibranch: "Test"
+monitorRecentlyApprovedPRs organization: "Stalker-4x4", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", multibranch: "jenkinstest"
 
-if (shouldBuildPR(organization: "Stalker-4x4", repo: "PR-REPO", auth: "st4x44@gmail.com", pr: env.CHANGE_ID) == false)
-  exit 1
+//if (shouldBuildPR(organization: "Stalker-4x4", repo: "jenkinstest", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", pr: env.CHANGE_ID) == false)
+//  exit 1
   
 
 
