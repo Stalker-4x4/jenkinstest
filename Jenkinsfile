@@ -94,4 +94,3 @@ if (shouldBuildPR(organization: "Stalker-4x4", repo: "PR-REPO", auth: "st4x44@gm
   exit 1
   
 
-
