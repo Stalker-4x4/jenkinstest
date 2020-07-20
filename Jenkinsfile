@@ -91,5 +91,5 @@ def shouldBuildPR(Map args = [:]) {
   shouldBuild
 }
 
-if (shouldBuildPR(organization: "visyond", repo: "visyond", auth: "st4x44@gmail.com", pr: env.CHANGE_ID) == false)
+if (shouldBuildPR(organization: "visyond", repo: "visyond", auth: "48357cb8-37f9-4b0b-94d1-184ed3d80f58", pr: env.CHANGE_ID) == false)
   exit 1
